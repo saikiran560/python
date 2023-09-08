@@ -23,6 +23,7 @@ print(thisset)
 thisset.remove("banana")
 print(thisset)
 
+
 thisset.pop()
 print(thisset)
 
@@ -32,3 +33,14 @@ print(thisset)
 #del thisset
 #print(thisset)
 
+thisset.discard("banana")
+print(thisset)
+
+thisset.add(("names","classes"))
+print("after add method:",thisset)
+
+
+thisset.update(["schools","university"])
+print("after  update method:",thisset)
+thisset.add("tata")
+print(thisset)
