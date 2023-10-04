@@ -6,8 +6,8 @@
   float: left;
   padding: 15px; 
 }
-p:hover,h1:hover,h2:hover,a:hover,td:hover,th:hover,li:hover{
-      color:red;
+p:hover,h1:hover,h2:hover,a:hover,td:hover,th:hover,li:hover,label:hover,input:hover{
+      color:salmon;
 	  font-family:cursive;
 }
 img:hover{
@@ -20,7 +20,7 @@ img:hover{
 </style>
 <title>This is html code</title>
 </head>
-<body  style="background-color: lightblue";>
+<body >
 <div style="border:2px width:100%;">
 <h1 style="text-align:centre">This is a Heading</h1>
 </div>
@@ -29,7 +29,7 @@ img:hover{
 
 <p>This is paragraph 2</p></div>
 <hr><br>
-<div style="border: 3px solid black; width:100%">
+<div style="border: 3px solid black; width:100% ;background-color:#d5f4e6">
 <h2 >ordered list:</h2>
 <ol>
   <li>Coffee</li>
@@ -43,7 +43,47 @@ img:hover{
    
 </ul>
 </div><br>
-<div style="width:100%;">
+
+ <head>
+   <title>HTML Form</title>
+ </head >
+ <div style="color:blue;background-color:#92a8d1;width:100%;">
+<form>
+    <label for="username">Username:</label><br><br>
+    <input type="text" id="username" name="username"><br><br>
+    <label for="pwd">Password:</label><br><br>
+    <input type="password" id="pwd" name="pwd"><br><br>
+    <input type="submit" onclick="alert('Do u want to submit?')" value="Submit">
+	<button type="button" onclick="alert('Do u want to login ?')">login</button><br>
+		
+</form>
+</div><br>
+<br>
+<div style="color:blue;background-color:#fefbd8;width:100%;"><br><br><br>
+<form>
+<label for="cars">Choose a car:</label>
+<select id="cars" name="cars">
+	<option value="volvo">Volvo</option>
+	<option value="Benz">Benz</option>
+	<option value="Tata">TATA</option>
+	<option value="audi">Audi</option>
+</select><br><br>
+	<input type="submit" onclick="alert('Do u want to submit?')" value="Submit">
+	<input type="reset" onclick="alert('Do u want to reset?')"value="Reset"><br><br><br><br>
+</form>
+</div><br>
+
+<div style="color:blue;background-color:lightblue ;width:100%;">
+<form>
+    <label for="username">Date:</label><br><br>
+    <input type="date" id="date" name="date"><br><br>
+	<label for="datetime">Date-time:</label><br><br>
+	<input type="datetime-local" id="date" name="date"><br><br><br>
+	</form>
+</div>
+
+
+<div style="width:100%;background-color:#cccccc">
 <h2> Table:</h2>
 <table style= "font-size:35px ;border: 3px solid black;">
 
@@ -54,12 +94,12 @@ img:hover{
    </tr>
    <tr>
       <td style="border: 2px solid black;">kiran</td>
-	  <td style="border: 2px solid black;">123</td>
+	  <td style="border: 2px solid black;">avj123</td>
 	  <td style="border: 2px solid black;">+912462384246</td>
    </tr>
    <tr>
       <td style="border: 2px solid black;">sai</td>
-	  <td style="border: 2px solid black;">244</td>
+	  <td style="border: 2px solid black;">vs2234</td>
 	  <td style="border: 2px solid black;">+912462324536</td>
    </tr>
  </table>
@@ -68,7 +108,7 @@ img:hover{
 
   
 
-<div style="border: 2px solid black; width:100%; margin-top:5px">
+<div style="border: 2px solid black; width:100%; margin-top:5px;background-color:powderblue">
 	<a style="font-size:100px;" href="https://www.google.com">
 	<center>
 		<div style=" margin-left:500px;">
@@ -86,7 +126,7 @@ img:hover{
 <div style="border: 2px solid black;width:100%; margin-top:5px">
 
 	<dd>car image</dd>
-	<a href= "https://search.brave.com/images?q=car+photos&source=web"><img src="paradise.jpg" alt="car image" width="80%" height="60%"></a>
+	<a href= "https://search.brave.com/images?q=car+photos&source=web"><img src="paradise.jpg" alt="car image" width="50%" height="30%"></a>
 </div>
 
 </body>
