@@ -1,0 +1,24 @@
+Item Data:
+Item Name: milk
+Price per Item: $30.00
+Quantity: 2
+Total Cost: $60.00
+
+Item Name: chocolate
+Price per Item: $10.00
+Quantity: 2
+Total Cost: $20.00
+
+Total Bill: $80.00
+Item Data:
+Item Name: vffd
+Price per Item: $2.00
+Quantity: 2
+Total Cost: $4.00
+
+Item Name: ffv
+Price per Item: $2.00
+Quantity: 2
+Total Cost: $4.00
+
+Total Bill: $8.00
