@@ -10,7 +10,7 @@ class sub():
         Mother_age=40
         print("my mother name is :",Mothetr_name)
         print("my mother age is :",Mother_age)
-class finall(main,sub): ##Inherited main class and sun class in finall class
+class finall(main,sub): 
     def finall_fun(self):
         son_name="sai"
         son_age=22
